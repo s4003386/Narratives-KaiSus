@@ -388,7 +388,7 @@ html{
     background-color: #ff0000;
     clear: both;
     
-    margin-top: ;
+    margin-top: 0vh;
     margin-left: 75%;
 }
 
@@ -417,3 +417,27 @@ html{
     margin-left: 7%;
     margin-right: 7%;
 }
+
+.part-2-sec-1-sub-3-graphimage{
+    margin-top: -25vh;
+}
+
+
+.part-2-sec-1-sub-3-ref{
+    position: relative;
+    font-family: "kaisei opti";
+    font-size: 20px ;
+    font-weight: 100;
+    line-height: 140%;
+}
+.part-2-sec-1-sub-3-ref-1{
+    margin-top: -65vh;
+    margin-left: 3%;
+}
+.part-2-sec-1-sub-3-ref-2{
+    margin-top: 65vh;
+    text-align: right;
+    margin-right: 3%;
+}
+
+/*girl help*/
