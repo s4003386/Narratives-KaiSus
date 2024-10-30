@@ -440,4 +440,27 @@ html{
     margin-right: 3%;
 }
 
+
+
+.part-2-sec-1-sub-4{
+    background-color: #FFF;
+}
+.part-2-sec-1-sub-4-textbox{
+    background-color: #E3D9CD;
+    margin-left: 26%;
+    margin-right: 26%;
+    margin-top: 20vh;
+}
+.part-2-sec-1-sub-4-textbox-text1{
+    position: relative;
+    font-family: "kaisei opti";
+    font-size: 20px ;
+    font-weight: 100;
+    line-height: 140%;
+
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+
 /*girl help*/
