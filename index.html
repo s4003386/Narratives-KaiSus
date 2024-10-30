@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 
+    <script src="script.js"></script> 
 </head>
 <body>
     <div class="content">
@@ -44,18 +45,16 @@
                 </div>
 
                 <div class="part-1-sec-1-sub-1-imagecontainer-1">
-                    <image src="Image/Part1sec1/Condor part1sec1.png" id="condorcliff1"></image>
+                    <image src="Image/Part1sec1/Condor part1sec1.png" ></image>
                 </div>
+                <!-- for some reason, this wont show on github -->
                 <div class="part-1-sec-1-sub-1-imagecontainer-2">
-                    <image src="Image/Part1sec1/Bridge 2 part1sec1.png" alt="bridge" ></image>
+                    <image src="Image/Part1sec1/Bridge_2_part1sec1.png" alt="bridge" ></image>
                 </div>
                 
         
             </div>
-    
 
-            
-    
             <div class="part-1-sec-1-sub-2">
                 <div class="part-1-sec-1-sub-2-text1">
                     As a scavenging animal, it easily serves as a role of a sentinel species. The condors sensitivity to the life and toxins of the animals that it eats is present as anything the carcass has eaten, the condor eats as well. This unique position means that the well-being of the condors can roughly translate to how well off the current ecosystem health is. 
@@ -72,8 +71,6 @@
                 </div>
             </div>
 
-
-            
             <div class="part-1-sec-1-sub-3">
                 <div class="part-1-sec-1-sub-3-text1">
                     Historically throughout the Pleistocene epoch, their range stretched along the entire continent of America. This range did not last however, as the larger terrestrial megafauna (65% of all megafaunal species) around the area began to die out. At the end of the north American ice age era around 12,000 years ago, the condors range became restricted to between the west coast of America to the Rocky Mountains range.  
@@ -88,8 +85,6 @@
 
             </div>
 
-    
-    
             <div class="part-1-sec-1-sub-4">
                 <div class="part-1-sec-1-sub-4-text1">
                     So why do these birds serve as a case study for our treatment of the environment now?
@@ -100,9 +95,6 @@
                     <image src="Image/Part1sec3/Illustration257.png" ></image>
                 </div>
             </div>
-    
-
-    
     
         </div>
     
@@ -149,7 +141,9 @@
     
     
     
+        
         <div class="part-2-sec-1">
+            <!-- the cost of cost cutting -->
             <div class="part-2-sec-1-sub-1">
                 &#8203;
                 <div class="part-2-sec-1-sub-1-box">
@@ -177,7 +171,7 @@
                     <br>&#8203;
                 </div>
             </div>
-    
+            <!-- livestock make up -->
             <div class="part-2-sec-1-sub-2">
                 &#8203;
                 <div class="part-2-sec-1-sub-2-textbox">
@@ -195,7 +189,8 @@
 
 
             </div>
-    
+            
+            <!-- wild population decline -->
             <div class="part-2-sec-1-sub-3">
                 &#8203;
                 <div class="part-2-sec-1-sub-3-textbox">
@@ -278,33 +273,54 @@
                 </div>
             </div>
         
+            <!-- land clearing -->
             <div class="part-2-sec-1-sub-7">
-                    Land clearing has had a direct impact on the spaces that wild animals can occupy. Global deforestation peaked in the 1980’s, but continues to occur even to the modern day. Currently one third of forests are now gone. This is twice the area of the united states. 70% of this land has been converted for farmland use. 
-                    <p></p>
-                    The conversion of natural habitats for agriculture, urban development, and other human activities is a significant cause of biodiversity loss. The way we run our global food systems currently put 85% of the 25000 endangered species at risk of extinction. [8] 
+                &#8203;
+                <div class="part-2-sec-1-sub-7-textbox">
+                    <div class="part-2-sec-1-sub-7-textbox-text">
+                        <br>&#8203;
+                        <br>&#8203;
+                        Land clearing has had a direct impact on the spaces that wild animals can occupy. Global deforestation peaked in the 1980’s, but continues to occur even to the modern day. Currently one third of forests are now gone. This is twice the area of the united states. 70% of this land has been converted for farmland use. 
+                        <p></p>
+                        The conversion of natural habitats for agriculture, urban development, and other human activities is a significant cause of biodiversity loss. The way we run our global food systems currently put 85% of the 25000 endangered species at risk of extinction. [8] 
+                        <br>&#8203;
+                        <br>&#8203;
+
+                    </div>
+                </div>
             </div>
         
             <div class="part-2-sec-1-sub-8">
-                    Map modified from: [EarthLab - Global Forest watch]
-        
-                
-                    interactive thing go here
+                <div class="part-2-sec-1-sub-8-textEarthLab">
+                    Map modified from: [EarthLab] - [Global Forest Watch]
+                </div>
+                <div class="part-2-sec-1-sub-8-interactive-map">
+                    <div class="part-2-sec-1-sub-8-interactive-map-map">
+                        <img id="DeforestMap" src="Image/Map/DeforestOriginal.png">
+                    </div>
+                    <div class="part-2-sec-1-sub-8-interactive-map-button">
+                        <button id="buttonDeforestOriginal" class="Button2000">2000</button>
+                        <button id="ButtonDeforestCut" class="Button2024">2024</button>
+                    </div>
+                </div>
             </div>
-        
+
             <div class="part-2-sec-1-sub-9">
-                    In the end, nothing is free. Many of these statistics not only have grave ecological implications but also economic ramifications in the form of a loss of natural services, self management of the environment and stability of resources. 
-                    <p></p>
-                    For example, food chains may face steep increasing in prices for produce because of a lack of pollinators or variety in plants or a lack of protections against pathogens. This is already happening for several different produce such as bananas, potatoes and wheat. 
-                    <p></p>
-                    More than half of the worlds GDP relies on the function of natural ecosystems, and as such we should treat the planet not solely as a step to short term wealth but a guise for long term sustainability. [9]
+                In the end, nothing is free. Many of these statistics not only have grave ecological implications but also economic ramifications in the form of a loss of natural services, self management of the environment and stability of resources. 
+                <p></p>
+                For example, food chains may face steep increasing in prices for produce because of a lack of pollinators or variety in plants or a lack of protections against pathogens. This is already happening for several different produce such as bananas, potatoes and wheat. 
+                <p></p>
+                More than half of the worlds GDP relies on the function of natural ecosystems, and as such we should treat the planet not solely as a step to short term wealth but a guise for long term sustainability. [9]
             </div>
             
-    
 
-
+          
+                    <p></p>
+                
+                    interactive thing go here
         </div>
-
         
+
         <div class="part-2-sec-2">
             <div class="part-2-sec-2-sub-1">
                 <h1>1960’s - Concerning Trends</h1>
@@ -487,6 +503,9 @@
     
     
         </div>
+
+
+        
     
         <div class="part-4-sec-1">
             <div class="part-4-sec-1-sub-1">
@@ -627,6 +646,14 @@
     
     
         </div>
+
+            
+    
+
+
+        </div>
+
+
     
     </div>
 
