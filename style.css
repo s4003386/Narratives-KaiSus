@@ -47,8 +47,9 @@ html{
 
 .part-1-sec-1-sub-1-CaliCon-title{
     font-family: "oswald", sans-serif;
-    font-size: 80px ;
+    font-size: 68px ;
     margin-left: 9vh;
+    margin-top: -0;
 }
 
 .part-1-sec-1-sub-1-Part1{
@@ -75,7 +76,7 @@ html{
     display: block;
     width: 100%;
     height: auto;
-    margin-top:-103vh;
+    margin-top:-107vh;
 }
 
 .part-1-sec-1-sub-1-imagecontainer-2{
@@ -443,6 +444,7 @@ html{
 
 
 .part-2-sec-1-sub-4{
+    
     background-color: #FFF;
 }
 .part-2-sec-1-sub-4-textbox{
@@ -463,4 +465,131 @@ html{
 }
 
 
+.part-2-sec-1-sub-4-infographic{
+
+    margin-top: 15vh;
+    height: 40px;
+    width: 450px;
+
+    background-color: #818181;
+    clear: both;
+
+    display: flex;
+    justify-content: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; /* Centering with auto margins */
+    margin-right: auto;
+    
+}
+.part-2-sec-1-sub-4-textbox-text{
+    position: relative;
+    font-family: "kaisei opti";
+    font-size: 20px ;
+    font-weight: 100;
+    line-height: 140%;
+
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.part-2-sec-1-sub-4-infographic-black{
+    height: 40px;
+    width: 320px;
+
+    background-color: #000000;
+    clear: both;
+}
+.part-2-sec-1-sub-4-infographic-red{
+    height: 40px;
+    width: 130px;
+
+    background-color: #ff0000;
+    clear: both;
+}
+
+
+
+
+
+.part-2-sec-1-sub-5{
+    
+    background-color: #FFF;
+}
+.part-2-sec-1-sub-5-textbox{
+    background-color: #E3D9CD;
+    margin-left: 26%;
+    margin-right: 26%;
+    margin-top: 20vh;
+}
+.part-2-sec-1-sub-5-textbox-text{
+    position: relative;
+    font-family: "kaisei opti";
+    font-size: 20px ;
+    font-weight: 100;
+    line-height: 140%;
+
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.part-2-sec-1-sub-5-infographic{
+
+    margin-top: 15vh;
+    height: 40px;
+    width: 450px;
+
+    background-color: #818181;
+    clear: both;
+
+    display: flex;
+    justify-content: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; /* Centering with auto margins */
+    margin-right: auto;
+    
+}
+.part-2-sec-1-sub-5-infographic-black{
+    height: 40px;
+    width: 436.5px;
+
+    background-color: #000000;
+    clear: both;
+}
+.part-2-sec-1-sub-5-infographic-red{
+    height: 40px;
+    width: 13.5px;
+
+    background-color: #ff0000;
+    clear: both;
+}
+
+
+
+
+
+.part-2-sec-1-sub-6{
+    
+    background-color: #FFF;
+}
+.part-2-sec-1-sub-6-textbox{
+    background-color: #E3D9CD;
+    margin-left: 26%;
+    margin-right: 26%;
+    margin-top: 50vh;
+}
+.part-2-sec-1-sub-6-textbox-text{
+    position: relative;
+    font-family: "kaisei opti";
+    font-size: 20px ;
+    font-weight: 100;
+    line-height: 140%;
+
+    margin-left: 7%;
+    margin-right: 7%;
+}
 /*girl help*/
