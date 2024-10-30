@@ -61,7 +61,7 @@ html{
 .part-1-sec-1-sub-1-introtext-forover{
     position: relative;
     font-family: "kaisei opti";
-    font-size: 23px ;
+    font-size: 20px ;
     margin-left: 14vh;
     margin-right: 45%;
     margin-top: 10vh;
@@ -103,7 +103,7 @@ html{
 .part-1-sec-1-sub-2-text1{
     position: relative;
     font-family: "kaisei opti";
-    font-size: 23px ;
+    font-size: 20px ;
     margin-left: 43%;
     margin-right: 14vh;
     margin-top: 20vh;
@@ -144,7 +144,7 @@ html{
 .part-1-sec-1-sub-3-text1{
     position: relative;
     font-family: "kaisei opti";
-    font-size: 23px ;
+    font-size: 20px ;
     margin-left: 18vh;
     margin-right: 35%;
     margin-top: -10vh;
@@ -157,7 +157,8 @@ html{
     display: block;
     width: 63vh;
     height: auto;
-    margin-left: 130vh;
+    margin-left: 65%;
+    margin-right:5vh;
     margin-top:-70vh;
 }
 
@@ -188,6 +189,7 @@ html{
 
 .part-1-sec-1-sub-4-image1{
     position: relative;
+    
     display: block;
     width: 100%;
     height: auto;
@@ -200,13 +202,218 @@ html{
 
 
 
-
+.part-1-sec-2{
+    background-color:#000000;
+}
+.Part-1-sec-2-title{
+    background-color:#000000;
+    color:#eee;
+    font-family: "oswald";
+    font-size: 160px;
+    writing-mode: vertical-rl;
+    margin-top:15vh;
+    margin-left:80%;
+    margin-bottom:5vh;
+    white-space: nowrap
+}
 
 .part-1-sec-2-sub-1{
     background-color:#000000;
     display: flex;
+    color: #eee;
 
     flex-direction: column;
     position: relative;
 }
 
+.part-1-sec-2-sub-1-text1{
+    position: relative;
+    font-family: "kaisei opti";
+    font-size: 20px ;
+    font-weight: 100;
+    line-height: 140%;
+    margin-left: 18vh;
+    margin-right: 35%;
+    margin-top: -240vh;
+
+}
+
+.part-1-sec-2-sub-2-image{
+    margin-top:-40vh;
+}
+
+.part-1-sec-2-sub-2{
+    position: relative;
+    color:#eee;
+    font-family: "kaisei opti";
+    font-size: 20px ;
+    margin-left: 18vh;
+    margin-right: 35%;
+    margin-top: -100vh;
+    font-weight: 100;
+    line-height: 140%;
+}
+
+.part-1-sec-2-sub-2-imagebottom {
+    margin-top: 10vh;
+    z-index: 1; /* Set lower than .part-2-sec-1-sub-1-box */
+    background-color: #ffffff;
+    position: relative; /* Add position relative for z-index to work */
+}
+
+.part-1-sec-2-sub-2-space{
+    background-color:#ffffff;
+    margin-top:-50vh;
+}
+
+
+
+
+
+
+.part-2-sec-1-sub-1{
+    background-color:#ffffff;
+}
+
+.part-2-sec-1-sub-1-box {
+    background-color: #E3D9CD;
+    margin-top: -70vh; /* Adjusted margin for positioning */
+    margin-left: 17%;
+    margin-right: 17%;
+    z-index: 10; /* Higher z-index to stack above */
+    text-align: center;
+    position: relative; /* Ensure z-index is applied */
+}
+
+.part-2-sec-1-sub-1-box-title{
+    position: relative;
+    font-family: "kaisei opti";
+    font-size: 26px ;
+    font-weight: 100;
+    line-height: 140%;
+    font-size: 20;
+
+    margin-top:20vh;
+    
+}
+
+.part-2-sec-1-sub-1-box-text1{
+    position: relative;
+    font-family: "kaisei opti";
+    font-size: 20px ;
+    font-weight: 100;
+    line-height: 140%;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:5vh;
+
+}
+
+.part-2-sec-1-sub-1-part2{
+    background-color: #FFF;
+    margin-top: 5vh; /* Adjusted margin for positioning */
+    margin-left: 17%;
+    margin-right: 17%;
+    text-align: center;
+    position: relative;
+    font-family: "oswald", sans-serif;
+    font-size: 23px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.part-2-sec-1-sub-2{
+    background-color: #FFF;
+}
+
+.part-2-sec-1-sub-2-textbox{
+    background-color: #E3D9CD;
+    margin-left: 5%;
+    margin-right:40%;
+    margin-top: 40vh;
+
+    position: relative;
+    font-family: "kaisei opti";
+    font-size: 20px ;
+    font-weight: 100;
+    line-height: 140%;
+}
+
+.part-2-sec-1-sub-2-textbox-text{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5vh;
+}
+
+.part-2-sec-1-sub-2-infograph{
+    background-color: #FFF;
+}
+
+.part-2-sec-1-sub-2-infograph-black{
+    height: 372px;
+    width: 100px;
+
+    border: 1px solid black;
+    background-color: #000000;
+    clear: both;
+    
+    margin-top: -65vh;
+    margin-left: 75%;
+}
+
+.part-2-sec-1-sub-2-infograph-beige{
+    height: 204px;
+    width: 100px;
+
+    background-color: #E3D9CD;
+    clear: both;
+    
+    margin-top: 0vh;
+    margin-left: 75%;
+}
+
+.part-2-sec-1-sub-2-infograph-red{
+    height: 24px;
+    width: 100px;
+
+    background-color: #ff0000;
+    clear: both;
+    
+    margin-top: ;
+    margin-left: 75%;
+}
+
+
+
+.part-2-sec-1-sub-3{
+    background-color: #FFF;
+
+}
+
+.part-2-sec-1-sub-3-textbox{
+    background-color: #E3D9CD;
+
+    margin-left: 46.5%;
+    margin-right: 3%;
+    margin-top: 20vh;
+}
+
+.part-2-sec-1-sub-3-textbox-text{
+    position: relative;
+    font-family: "kaisei opti";
+    font-size: 20px ;
+    font-weight: 100;
+    line-height: 140%;
+
+    margin-left: 7%;
+    margin-right: 7%;
+}
