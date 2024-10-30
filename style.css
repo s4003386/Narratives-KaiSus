@@ -592,4 +592,62 @@ html{
     margin-left: 7%;
     margin-right: 7%;
 }
+
+
+
+
+
+/* land clearing boxes */
+.part-2-sec-1-sub-7{
+    
+    background-color: #FFF;
+}
+.part-2-sec-1-sub-7-textbox{
+    background-color: #E3D9CD;
+    margin-left: 37%;
+    margin-right: 3%;
+    margin-top: 45vh;
+}
+.part-2-sec-1-sub-7-textbox-text{
+    position: relative;
+    font-family: "kaisei opti";
+    font-size: 20px ;
+    font-weight: 100;
+    line-height: 140%;
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+
+
+
+
+/* Part 2 section 1 end 'nothing is free' */
+.part-2-sec-1-sub-9{
+    background-color:#E3D9CD;
+    display: flex;
+
+    flex-direction: column;
+    position: relative;
+
+}
+
+.part-2-sec-1-sub-9-box-text{
+    position: relative;
+    font-family: "kaisei opti";
+    font-size: 20px ;
+
+    margin-top: 16vh;
+    font-weight: 100;
+    line-height: 140%;
+
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+
+}
+
+
 /*girl help*/
